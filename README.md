@@ -8,3 +8,7 @@ Sofar, this is pretty basic and more of a prove-of-concept that a useful program
 What is is already useful for is avoid the python3-conversion of sopare since the listener is already running in python3. So, just run your python3-plugin-code in the listener instead of sopare itself.
 
 Also a noteworthy feature: this uses UDP, so if any of the 2 communications endpoints is killed the other end is not affected.
+
+# TODO
+- move constants and maybe even encode/decode functions to another module that both plugin and listener import
+- do something with output in listener
