@@ -9,6 +9,8 @@ What this is already useful for is to avoid the python3-conversion of sopare. Si
 
 Also a noteworthy feature: this uses UDP, so if any of the 2 communications endpoints is killed the other end is not affected. You can just re-start each of the two (`sopare -l` and/or `sopare-listen.py`) and the other program will only print one warning and then continue working.
 
+However, if you want to have this on Windows you need to replace the unix domain sockets with a different kind of socket.
+
 # Installation
 - install sopare, get it to run, teach it some sound patterns
 - clone this repo
